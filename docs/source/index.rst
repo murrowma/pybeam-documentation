@@ -1,15 +1,11 @@
-Welcome to Lumache's documentation!
+Welcome to PyBEAM's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-Why you no change.
+**PyBEAM** (Bayesian Evidence Accumulation Models) is a Python 
+package designed to rapidly fit two-threshold, binary choice models to choice-RT data using Bayesian inference methods. 
+For a full description of its design, see the publication (https://psyarxiv.com/ax36b/).
+For access to the package code and other files, see the PyBEAM github (https://github.com/murrowma/pybeam/).
+To learn how to use PyBEAM, see the Precoded tutorials and Custom tutorials tabs for step-by-step instructions.
 
 .. note::
 
@@ -20,5 +16,8 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   installation
+   precoded_functions
+   precoded_tutorials
+   custom_functions
+   custom_tutorials
