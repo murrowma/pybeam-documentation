@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="g93cr9HSVTxZYPRnzTxUOwntxf0_wjeLQW6jFCTEK8w" />
+
 Welcome to PyBEAM's documentation!
 ===================================
 
