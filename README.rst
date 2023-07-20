@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+PyBEAM's Documentation
+======================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repo contains all files required to compile PyBEAM's documentation. The documenation is hosted at:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+  https://www.pymc.io/projects/docs/en/latest/installation.html
