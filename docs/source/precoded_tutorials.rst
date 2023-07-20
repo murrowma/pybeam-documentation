@@ -14,3 +14,4 @@ Precoded tutorials
    notebooks/Tutorial 4 - Parameter inference for multiple condition models
    notebooks/Tutorial 5 - Fixing model parameters
    notebooks/Tutorial 6 - Fitting models using optional inputs
+   notebooks/Tutorial 7 - Fitting experimental data
