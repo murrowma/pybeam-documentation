@@ -1,5 +1,5 @@
-Welcome to PyBEAM's documentation!
-===================================
+PyBEAM: A Bayesian approach to parameter inference for a wide class of binary evidence accumulation models
+==========================================================================================================
 
 **PyBEAM** (Bayesian Evidence Accumulation Models) is a Python 
 package designed to rapidly fit two-threshold, binary choice models to choice-RT data using Bayesian inference methods. 
