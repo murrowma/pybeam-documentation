@@ -55,10 +55,10 @@ Listed below are all functions available in PyBEAM's precoded submodule.
    :param t_res: Sets the time resolution for the PDE solution. Can be set to 'default', 'fast', 'high', or 'max'. Should be left at 'default'.
    :type t_res: str
 
-   :param dt_interp_scale: Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
+   :param dt_interp_scale (DEPRECATED): Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
    :type dt_interp_scale: float
 
-   :param dt_interp_overide: Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
+   :param dt_interp_overide (DEPRECATED): Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
    :type dt_interp_overide: float
 
    :return: Model likelihood function.
@@ -89,10 +89,10 @@ Listed below are all functions available in PyBEAM's precoded submodule.
    :param t_res: Sets the time resolution for the PDE solution. Can be set to 'default', 'fast', 'high', or 'max'. Should be left at 'default'.
    :type t_res: str
 
-   :param dt_interp_scale: Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
+   :param dt_interp_scale (DEPRECATED): Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
    :type dt_interp_scale: float
 
-   :param dt_interp_overide: Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
+   :param dt_interp_overide (DEPRECATED): Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
    :type dt_interp_overide: float
 
    :return: Loglikelihood of RT data.
@@ -126,10 +126,10 @@ Listed below are all functions available in PyBEAM's precoded submodule.
    :param t_res: Sets the time resolution for the PDE solution. Can be set to 'default', 'fast', 'high', or 'max'. Should be left at 'default'.
    :type t_res: str
 
-   :param dt_interp_scale: Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
+   :param dt_interp_scale (DEPRECATED): Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
    :type dt_interp_scale: float
 
-   :param dt_interp_overide: Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
+   :param dt_interp_overide (DEPRECATED): Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
    :type dt_interp_overide: float
 
    :return: Figure containing model likelihood and histogram of data (if rt is given a dictionary).
@@ -160,10 +160,10 @@ Listed below are all functions available in PyBEAM's precoded submodule.
    :param file_name: Sets the name of the .nc file output by the solver containing the posteriors. Automatically adds the .nc extension to the string.
    :type file_name: str
 
-   :param dt_interp_scale: Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
+   :param dt_interp_scale (DEPRECATED): Sets the interpolation resolution. If 1.0, interpolation resolution equals the estimated time step. Otherwise, multiplies estimated time step by this value. Should be left at 1.0.
    :type dt_interp_scale: float
 
-   :param dt_interp_overide: Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
+   :param dt_interp_overide (DEPRECATED): Allows user to automatically set interpolation resolution. If 0.0, interpolation step set by program. Should be left at 0.0.
    :type dt_interp_overide: float
 
    :param N_tnd: Sets the number of integration points for the non-decision time distribution. Ignored if model uses constant non-decision time.
